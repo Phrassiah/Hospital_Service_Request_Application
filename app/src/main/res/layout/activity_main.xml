@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    android:padding="30dp"
+    android:background="#F8F9FA">
+
+    <ImageView
+        android:id="@+id/main_logo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/baseline_hospital"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOSPITAL SERVICE PORTAL"
+        android:textSize="20sp"
+        android:layout_marginTop="32dp"
+        android:textStyle="bold"
+        android:textColor="#2C3E50"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:id="@+id/btn_main_login"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="USER LOGIN"
+        android:backgroundTint="#2980B9"
+        android:layout_marginBottom="15dp" />
+
+    <Button
+        android:id="@+id/btn_main_register"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="CREATE ACCOUNT"
+        android:backgroundTint="#27AE60"
+        android:layout_marginBottom="15dp" />
+
+    <Button
+        android:id="@+id/btn_main_admin"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="ADMIN PANEL"
+        android:backgroundTint="#C0392B" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="© 2026 Hospital Management System"
+        android:textSize="12sp"
+        android:textColor="#95A5A6" />
+
+</LinearLayout>

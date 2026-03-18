@@ -1,0 +1,113 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Available Hospital Services"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#1B5E20"
+            android:layout_marginBottom="10dp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1"
+            android:background="#EEEEEE"
+            android:padding="5dp"
+            android:layout_marginBottom="20dp">
+
+            <TableRow android:background="#BCBBBB"
+                android:padding="5dp">
+                <TextView android:text="Code"
+                    android:textStyle="bold"
+                    android:padding="5dp"/>
+                <TextView android:text="Service Name"
+                    android:textStyle="bold"
+                    android:padding="5dp"/>
+            </TableRow>
+
+            <TableRow android:padding="5dp">
+                <TextView android:text="CL001"
+                    android:padding="5dp"/>
+                <TextView android:text="Cleaning"
+                    android:padding="5dp"/>
+            </TableRow>
+
+            <TableRow android:padding="5dp">
+                <TextView android:text="EP002"
+                    android:padding="5dp"/>
+                <TextView android:text="Equipment assistance"
+                    android:padding="5dp"/>
+            </TableRow>
+
+            <TableRow android:padding="5dp">
+                <TextView android:text="LC001"
+                    android:padding="5dp"/>
+                <TextView android:text="Linen change"
+                    android:padding="5dp"/>
+            </TableRow>
+
+            <TableRow android:padding="5dp">
+                <TextView android:text="PS001"
+                    android:padding="5dp"/>
+                <TextView android:text="Porter services"
+                 android:padding="5dp"/>
+            </TableRow>
+
+        </TableLayout>
+
+        <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#999" android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Make a Request"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginBottom="10dp"/>
+
+        <Spinner
+            android:id="@+id/spinner_browse_services"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="15dp"
+            android:background="@android:drawable/btn_dropdown"/>
+
+        <EditText
+            android:id="@+id/et_ward_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ward and Bed Number"
+            android:inputType="text"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/et_request_notes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Any specific notes?"
+            android:lines="3"
+            android:gravity="top"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/btn_submit_request"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="SEND REQUEST"
+            android:backgroundTint="#2E7D32"
+            android:textColor="#FFF"/>
+
+
+
+    </LinearLayout>
+</ScrollView>

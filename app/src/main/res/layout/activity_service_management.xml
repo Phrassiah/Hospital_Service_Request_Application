@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SERVICE MANAGEMENT"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textColor="#2980B9"
+        android:layout_marginBottom="30dp" />
+
+    <EditText
+        android:id="@+id/et_new_service_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Service Name (e.g. Dental)"
+        android:padding="15dp"
+        android:background="@android:drawable/editbox_background"/>
+
+    <EditText
+        android:id="@+id/et_new_service_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:layout_marginTop="15dp"
+        android:padding="15dp"
+        android:background="@android:drawable/editbox_background"/>
+
+    <Button
+        android:id="@+id/btn_save_service_now"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="ADD SERVICE"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#27AE60" />
+
+    <Button
+        android:id="@+id/btn_delete_services"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Delete_service"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#27AE60" />
+</LinearLayout>

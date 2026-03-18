@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="et_service_name" type="id" />
+    <item name="et_service_description" type="id" />
+    <item name="btn_save_service" type="id" />
+    <item name="et_delete_username" type="id" />
+</resources>
